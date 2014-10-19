@@ -25,6 +25,7 @@
 		echo '<th>varchar</th>';
 		echo '</tr>';
 		echo '</thead>';
+		echo '</table>';
 		echo '<tbody>';
 	 }
 	 
