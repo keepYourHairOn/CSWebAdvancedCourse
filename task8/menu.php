@@ -1,7 +1,7 @@
 <?php
 	echo '<style type="text/css">'; //connect css style to the page
 		$css = file_get_contents('style.css'); //set the css file
-		echo $css; //output all features from the css implemented to the html tags
+		echo  '<link ref=«style»>'; //output all features from the css implemented to the html tags
 	echo '</style>';
 	
 	
