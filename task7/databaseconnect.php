@@ -25,7 +25,6 @@
 		echo '<th>varchar</th>';
 		echo '</tr>';
 		echo '</thead>';
-		echo '</table>';
 		echo '<tbody>';
 	 }
 	 
@@ -44,7 +43,7 @@
 		$arr_int[] = $data['test_table_pk']; //creation of an array with all values of primary keys
 	}
 	rsort($arr_names); //sort of all names by the inverse to alphabetic order
-	
+	echo '</table>';
 	 //output of the table with sorted name-column
 	tbl();
 	
@@ -54,6 +53,7 @@
 		  echo '<td>' . $arr_names[$i] . '</td>';
 		  echo '</tr>';
 	}
+	echo '</table>';
 //task16	   
 	$add = mysql_query("insert into " . $table_to_show."(`name` , `text`,`mdate`,`time_date`) 
 							values ('DOCTOR' , 'ONE', '2014-11-14 20:44:20' , '00:01:11' "); //insert value to the table in the database
