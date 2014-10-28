@@ -1,0 +1,631 @@
+body{
+	margin:0;
+	width:100%;
+}
+
+/*----------------------------Header styles--------------------------*/
+.header{
+	height: 314px;
+	position:relative;
+	display:block;
+	width:100%;
+	margin:0;
+	background: url(images/header.png) repeat-x;
+}
+
+.header .body{
+	position:absolute;
+	top:0;
+	left:12%;
+	right:10%;
+	width:1004px;
+	height:277px;
+	z-index:1;
+}
+
+.logo{
+	position:absolute;
+	top:50px;
+	left:50px;
+	width:130px;
+	height:45px;
+	font-size:40pt;
+	font-weight:bold;
+	font-family:Tahoma;
+	color:white;
+	z-index:1;
+}
+
+.log_add{
+	position:absolute;
+	top:50px;
+	left:205px;
+	height:12px;
+	width:93px;
+	z-index:1;
+}
+
+.punchline1{
+	position:absolute;
+	top:60px;
+	left:646px;
+	height:22px;
+	width:278px;
+	z-index:1;
+}
+
+.punchline2{
+	position:absolute;
+	top:85px;
+	left:682px;
+	height:20px;
+	width:253px;
+	z-index:1;
+}
+
+.punchline3{
+	position:absolute;
+	top:109px;
+	left:805px;
+	height:26px;
+	width:126px;
+	z-index:1;
+}
+
+.birds{
+	height:35px;
+	width:770px;
+	padding-left:241px;
+	padding-top:110px;
+	z-index:5;
+}
+
+.electricity{
+	position:absolute;
+	bottom:37px;
+	width:100%;
+	height:130px;
+	background: url(images/elctricity.png) repeat-x;
+	z-index:1; 	
+}
+
+.grass{
+	position:absolute;
+	top:266px;
+	width:100%;
+	height:12px;
+	background: url(images/grass_03.png) repeat-x;
+	z-index:1; 	
+}
+
+/*Menu styles*/
+.nav{
+	position:absolute;
+	top:277px;
+	height:37px;
+	width:100%;	
+	background-color:rgb(0,172,105);
+}
+.menu{
+	position:absolute;
+	left:12%;
+	right:10%;
+	padding:0;
+	margin:0;
+	bottom:0;
+	width:1004px;
+	height:37px;
+}
+
+.menu li{
+	list-style: none;
+	float: left;
+	position: relative;
+	text-align:center;
+	margin-left: 5px;
+	margin-right: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.menu #home{
+	padding-left:27px;
+}
+
+.menu li>a{
+	color: rgb(229,223,133);
+	font-size: 12pt;
+	font-weight: bold;
+	font-family: Arial;
+	text-decoration: none;
+}
+
+/*----------------------------Body(content) styles--------------------------*/
+.content{
+	height:787px;
+	margin:0;
+	width:100%;
+	position:relative;
+	display:block;
+	background: url(images/body.png) repeat-x;
+}
+
+.content .body{
+	position:absolute;
+	height: 588px;
+	width:1004px;
+	top:35px;
+	bottom:35px;
+	left:12%;
+	right:10%;
+}
+.content div{
+	float: left;
+}
+
+/*Left-column styles*/
+.note_left{
+	position:relative;
+	width:224px;
+	height:588px;
+	margin-top:0;
+	margin-right:72px;
+	margin-left:34px;
+}
+
+.note_left .p_1{
+	height:240px;
+	width:224px;
+	margin:0;
+}
+
+.note_left .p_2{
+	height:174px;
+	width:224px;
+	margin:0;
+}
+
+.note_left .p_3{
+	height:174px;
+	width:224px;
+	margin:0;
+}
+
+.note_left h2{
+	margin:0;
+	text-align:left;
+	font-size: 17pt;
+	font-weight: normal;
+	font-family: Georgia;
+}
+
+.note_left p{
+	text-align:left;
+	font-size: 9pt;
+	font-weight: normal;
+	font-family: Arial;
+}
+
+.note_left .first{
+	font-weight: bold;
+	color: rgb(0,91,127);
+}
+
+.note_left ul {
+	padding:0;
+	list-style-position:inside;
+    list-style-image: url(images/tick_reg.png);
+}
+
+.note_left ul .li_first{
+	padding:0;
+	list-style-position:inside;
+    list-style-image: url(images/tick.png);
+}
+
+.note_left ul hr{
+	margin-top:3px;
+	margin-bottom:3px;
+	size:1px;
+	width:224px;
+	color: rgb(198,208,157);
+}
+
+.note_left li {
+	font-size: 9pt;
+	font-weight: normal;
+	font-family: Arial;
+}
+
+.note_left .li_first{
+	background: rgb(254,253,231);
+	color: rgb(196,103,6);
+}
+
+.note_left .p_2  .name{
+	width:104px;
+	border:none;
+	background:rgb(243,239,192);
+	margin-right:8px;
+}
+
+.note_left .p_2 .pass{
+	width:108px;
+	border:none;
+	background:rgb(243,239,192);
+}
+
+.note_left .p_2 p{
+	margin-left:5px;
+	text-align:left;
+	font-size: 8pt;
+	font-weight: bold;
+	font-family: Arial;
+}
+
+.note_left .p_2 .first{
+	margin-left:0;
+	text-align:left;
+	font-size: 9pt;
+	font-weight: bold;
+	font-family: Arial;
+}
+
+.note_left .p_2 .first{
+	color:rgb(0,91,127);
+}
+
+.note_left .p_2 .reg{
+	color:rgb(210,89,48);
+}
+
+.note_left .p_2 .login{
+	margin-left:5px;
+	width:55px;
+	height:17px;
+	background-color:linear-gradient(to top,rgb(255,255,255),rgb(241,241,241));
+	border:1px solid rgb(189,188,189);
+	text-align:center;
+	font-size: 7pt;
+	font-weight: normal;
+	font-family: Arial;
+}
+
+.note_left .p_3 h2{
+	height:19px;
+	text-align:left;
+	font-size: 17pt;
+	font-weight: normal;
+	font-family: Georgia;
+}
+
+.note_left .p_3 p{
+	margin-top:12px;
+	margin-bottom:12px;
+	color:rgb(0,91,127);
+	text-align:left;
+	font-size: 9pt;
+	font-weight: bold;
+	font-family: Arial;
+}
+
+.note_left .p_3 .next{
+	margin-left:168px;
+	width:55px;
+	height:17px;
+	background-color:linear-gradient(to top,rgb(255,255,255),rgb(241,241,241));
+	border:1px solid rgb(189,188,189);
+	text-align:center;
+	font-size: 7pt;
+	font-weight: normal;
+	font-family: Arial;
+}
+
+.note_left .p_3 .pict_1{
+	margin-right:23px;
+}
+
+/*Middle-column styles*/
+.note_middle{
+	position:relative;
+	width:350px;
+	height:588px;
+	margin-right:72px;
+}
+
+.note_middle .p_1{
+	height:240px;
+	width:350px;
+	margin:0;
+}
+
+.note_middle .p_1 span{
+	color:rgb(196,103,6);
+	text-align:left;
+	font-size: 9pt;
+	font-weight: bold;
+	font-family: Arial;
+}
+
+.note_middle .first{
+	color:rgb(0,91,127);
+	height:29px;
+	text-align:left;
+	font-size: 9pt;
+	font-weight: bold;
+	font-family: Arial;
+}
+
+.note_middle p{
+	margin-top:14px;
+	text-align:left;
+	font-size: 9pt;
+	font-weight: normal;
+	font-family: Arial;
+}
+
+.note_middle .p_1 .readmore{
+	width:77px;
+	height:20px;
+	background-color:linear-gradient(to top,rgb(255,255,255),rgb(241,241,241));
+	border:1px solid rgb(189,188,189);
+	text-align:center;
+	font-size: 7pt;
+	font-weight: normal;
+	font-family: Arial;
+}
+
+.note_middle .p_2{
+	margin-top:34px;
+	height:314px;
+	width:350px;
+}
+
+.note_middle .p_2 .first{
+	margin-bottom:26px;
+}
+
+.note_middle .h_1{
+	margin:0;
+	text-align:left;
+	font-size: 25pt;
+	font-weight: normal;
+	font-family: Georgia;
+}
+
+.note_middle .h_2{
+	margin:0;
+	text-align:left;
+	font-size: 22pt;
+	font-weight: normal;
+	font-family: Georgia;
+}
+
+.note_middle .p_2 .pict_1{
+	margin-bottom:29px;
+}
+
+.note_middle ul {
+	padding:0;
+	list-style-position:inside;
+    list-style-image: url(images/tick_reg_2.png);
+}
+
+.note_middle ul .first_li{
+	padding:0;
+	list-style-position:inside;
+    list-style-image: url(images/tick_2.png);
+	color: rgb(196,103,6);
+}
+.note_middle li {
+	font-size: 9pt;
+	font-weight: normal;
+	font-family: Arial;
+}
+
+
+/*Right-column styles*/
+.note_right{
+	position:relative;
+	margin-right:34px;
+	width:218px;
+	height:588px;
+}
+
+.note_right .p_1{
+	height:379px;
+	width:218px;
+}
+
+.note_right .p_1 .first{
+	margin-top:26px;
+}
+
+.note_right .p_1 .first span{
+	display: inline-block;
+	height:21px;
+	text-align:left;
+	font-size: 9pt;
+	font-weight: bold;
+	font-family: Arial;
+	color:rgb(79,121,10);
+}
+
+.note_right .p_1 .first p{
+	margin-top:0;
+	text-align:left;
+	font-size: 9pt;
+	font-weight: normal;
+	font-family: Arial;
+}
+
+.note_right .p_1 .calendar{
+	float:left;
+}
+
+.note_right .p_1 .first .second{
+	text-decoration:underline;
+	text-align:left;
+	font-size: 8pt;
+	font-weight: bold;
+	font-family: Arial;
+	color:rgb(199,103,6);
+}
+
+.note_right .p_1 .first .third{
+	height:20px;
+	background:rgb(254,253,231);
+	padding-top:0;
+}
+
+.note_right .p_1 .first .third img{
+	margin-right:9px;
+	margin-left:9px;
+}
+
+.note_right .p_2{
+	height:209px;
+	width:218px;
+}
+
+.note_right .p_2 input{
+	width:200px;
+	background:rgb(243,239,192);
+	border:none;
+	text-align:left;
+	font-size: 7pt;
+	font-weight: normal;
+	font-family: Arial;
+	color:rgb(88,94,76);
+	margin-left:10px;
+	margin-top:7px;
+}
+
+.note_right .p_2 .name{
+	height:10px;
+}
+
+.note_right .p_2 .mail{
+	height:10px;
+}
+
+.note_right .p_2 .message{
+	height:62px;
+}
+
+.note_right .p_2 .submit{
+	margin-top:12px;
+	width:55px;
+	height:17px;
+	background-color:linear-gradient(to top,rgb(255,255,255),rgb(241,241,241));
+	border:1px solid rgb(189,188,189);
+	text-align:center;
+	font-size: 7pt;
+	font-weight: normal;
+	font-family: Arial;
+	color:black;
+}
+
+.note_right h2{
+	margin:0;
+	text-align:left;
+	font-size: 17pt;
+	font-weight: normal;
+	font-family: Georgia;
+}
+
+/*----------------------------Footer style--------------------------*/
+.footer{
+	border:0;
+	position:absolute;
+	width:100%;
+	top:971px;
+	height:130px;
+	background:rgb(0,172,105);
+	z-index:2;
+}
+
+.footer .menu{
+	position:absolute;
+	left:12%;
+	right:10%;
+	padding:0;
+	margin:0;
+	top:20px;
+	width:1004px;
+	height:37px;
+}
+.footer .main{
+	position:absolute;
+	left:12%;
+	right:10%;
+	padding:0;
+	margin:0;
+	top:40px;
+	width:1004px;
+	height:87px;
+}
+
+.footer .menu li{
+	list-style: none;
+	float: left;
+	position: relative;
+	text-align:center;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-left: 5px;
+	padding-right: 5px;
+	border-right:3px solid rgb(229,223,133);
+}
+.footer .menu #home{
+	padding-left:0;
+	margin-left:215px;
+}
+
+.footer .menu li>a{
+	color: rgb(229,223,133);
+	font-size: 11pt;
+	font-weight: bold;
+	font-family: Arial;
+	text-decoration: none;
+}
+
+.footer .first{
+	color: white;
+	font-size: 9pt;
+	font-weight: normal;
+	font-family: Arial;
+	text-align:center;
+	margin-bottom:0;
+}
+
+.footer .second{
+	color: white;
+	font-size: 9pt;
+	font-weight: bold;
+	font-family: Arial;
+	text-align:center;
+	margin-top:9px;
+	margin-bottom:10px;
+}
+
+.footer .second span{
+	color: rgb(229,223,133);
+}
+
+.footer input{
+	width:62px;
+	height:18px;
+	background-color:linear-gradient(to top,rgb(255,255,255),rgb(241,241,241));
+	border:1px solid rgb(189,188,189);
+	border-radius:4px;
+	text-align:center;
+	font-size:8pt;
+	font-weight: bold;
+	font-family: Arial;
+	color:black;
+}
+
+.footer .xhtml{
+	margin-left:432px;
+	margin-right:10px;
+}
