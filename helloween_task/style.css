@@ -1,0 +1,153 @@
+.main{
+	height:700px;
+	width:100%;
+	background:URL(http://i439.photobucket.com/albums/qq114/CallousCarnage/aa10.png) fixed;
+}
+
+.predict{
+	font-family:Creepster;
+	font-size:28pt;
+	color:white;
+	text-align:center;
+	margin-top:5px;
+	margin-bottom:5px;
+	text-shadow: 2px 0 #500000, 4px 0 #500000;
+}
+
+.inputs p{
+	position:relative;
+	left:45%;
+}
+
+.inputs .name_area{
+	position:relative;
+	width:110px;
+	height:50px;
+	border-radius:4px;
+}
+
+#five{
+	position:absolute;
+	right:490px;
+	height:100px;
+	width:100px;
+}
+
+.title {
+	margin-top:5px;
+	margin-bottom:5px;
+	text-align:center;
+	font-family:Nosifer;
+	color:red;
+	font-weight:bold;
+	font-size:48pt;
+	text-shadow: none;
+	text-shadow: none;
+	margin-bottom:10px;
+	text-shadow: 3px 5px #500000;
+}
+
+.picture{
+	position:absolute;
+	left:35%;
+	border-radius: 100px;
+	height:270px;
+	width:400px;
+}
+
+#show_prd{
+	font-family:Emilys Candy;
+	font-size:11pt;
+	border-radius: 5px;
+	color:#500000;
+}
+
+#add_page{
+	font-family:Emilys Candy;
+	font-size:11pt;
+	border-radius: 5px;
+	color:#500000;
+}
+
+#ghost1{
+	position:absolute;
+	left:0;
+	height:300px;
+	width:300;
+	top:53%;
+}
+
+#ghost2{
+	position:absolute;
+	right:0;
+	height:300px;
+	width:300;
+	top:53%;
+}
+
+.main_add{
+	background:URL(http://i439.photobucket.com/albums/qq114/CallousCarnage/aa10.png) fixed;
+}
+
+.choose_pict{
+	font-family:Butcherman;
+	color:White;
+	font-size:30pt;
+	text-shadow: 5px 7px #500000;
+	text-align:center;
+}
+
+.add_file{
+	position:relative;
+	height:50px;
+	width:300px;
+	left:40%;
+}
+
+.file_add{
+	position:relative;
+	left:42%;
+	font-family:Emilys Candy;
+	font-size:12pt;
+	color:white;
+}
+
+.adding{
+	position:relative;
+	left:50%;
+	font-family:Emilys Candy;
+	font-size:11pt;
+	border-radius: 5px;
+	color:#500000;
+}
+
+#pumpkin1{
+	position:absolute;
+	left:30px;
+	bottom:0;
+	height:200px;
+	width:200px;
+}
+
+#pumpkin2{
+	position:absolute;
+	right:30px;
+	bottom:0;
+	height:200px;
+	width:200px;
+}
+
+#bloody{
+	position:absolute;
+	top:50px;
+	right:300px;
+	height:150px;
+	width:150px;
+	z-index:3;
+}
+
+#ghost3{
+	position:absolute;
+	left:300px;
+	top:300px;
+}
