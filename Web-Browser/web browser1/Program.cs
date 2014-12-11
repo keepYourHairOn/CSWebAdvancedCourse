@@ -6,6 +6,7 @@ using System.Windows.Forms;
 
 namespace web_browser1
 {
+    //Web Browser project version 1.1
     static class Program
     {
         // \brief class which call the methods from Form1.cs and Form1.Designer.cs

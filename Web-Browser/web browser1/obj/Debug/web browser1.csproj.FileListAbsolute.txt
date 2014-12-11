@@ -7,3 +7,6 @@ E:\Образование\OOP\VS\web browser1\web browser1\obj\Debug\web_browser
 E:\Образование\OOP\VS\web browser1\web browser1\obj\Debug\web browser1.csproj.GenerateResource.Cache
 E:\Образование\OOP\VS\web browser1\web browser1\obj\Debug\web browser1.exe
 E:\Образование\OOP\VS\web browser1\web browser1\obj\Debug\web browser1.pdb
+E:\Курси\html && css\CSWebAdvancedCourse\Web-Browser\web browser1\bin\Debug\web browser1.exe.config
+E:\Курси\html && css\CSWebAdvancedCourse\Web-Browser\web browser1\obj\Debug\web browser1.exe
+E:\Курси\html && css\CSWebAdvancedCourse\Web-Browser\web browser1\obj\Debug\web browser1.pdb
