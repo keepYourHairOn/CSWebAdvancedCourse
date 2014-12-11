@@ -1,0 +1,9 @@
+E:\Образование\OOP\VS\web browser1\web browser1\bin\Debug\web browser1.exe.config
+E:\Образование\OOP\VS\web browser1\web browser1\bin\Debug\web browser1.exe
+E:\Образование\OOP\VS\web browser1\web browser1\bin\Debug\web browser1.pdb
+E:\Образование\OOP\VS\web browser1\web browser1\obj\Debug\web browser1.csprojResolveAssemblyReference.cache
+E:\Образование\OOP\VS\web browser1\web browser1\obj\Debug\web_browser1.Form1.resources
+E:\Образование\OOP\VS\web browser1\web browser1\obj\Debug\web_browser1.Properties.Resources.resources
+E:\Образование\OOP\VS\web browser1\web browser1\obj\Debug\web browser1.csproj.GenerateResource.Cache
+E:\Образование\OOP\VS\web browser1\web browser1\obj\Debug\web browser1.exe
+E:\Образование\OOP\VS\web browser1\web browser1\obj\Debug\web browser1.pdb
